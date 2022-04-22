@@ -14,7 +14,7 @@ RUN echo 'Installing additional packages...' && \
 	export DEBIAN_FRONTEND=noninteractive && \
 	apt-get update && \
 	apt-get install \
-	kali-linux-headless \
+	kali-tools-top10 \
 	sudo \
 	openvpn \
 	-y --show-progress 
