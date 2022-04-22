@@ -14,11 +14,9 @@ RUN echo 'Installing additional packages...' && \
 	export DEBIAN_FRONTEND=noninteractive && \
 	apt-get update && \
 	apt-get install \
-
 	kali-tools-headless \
 	sudo \
 	openvpn \
-	
 	-y --show-progress 
 
 COPY run_ttyd.sh /run_ttyd.sh
