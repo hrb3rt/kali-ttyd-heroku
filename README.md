@@ -1,4 +1,4 @@
-[![Heroku](https://www.herokucdn.com/deploy/button.svg)](http://heroku.com/deploy?template=https://github.com/L1M0NK3Y/dockerizing-ttyd)
+[![Heroku](https://www.herokucdn.com/deploy/button.svg)](http://heroku.com/deploy?template=https://github.com/L1M0NK3Y/kali-ttyd-heroku)
 
 
 # kali-ttyd-heroku
