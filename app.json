@@ -1,0 +1,19 @@
+{
+    "name": "kali-ttyd-heroku",
+    "description": "Kali Linux Docker TTYD, refer readme for more info.",
+    "repository": "https://github.com/L1M0NK3Y/kali-ttyd-heroku",
+    "logo": "https://www.kali.org/images/kali-logo.svg",
+    "keywords": ["docker","kali", "ttyd", "linux", "remote"],
+    "stack": "container",
+    "env": {
+       "USER" : {
+        "description": "username",
+	      "value" : "kali",
+        "required" : true
+      } ,
+      "PASSWORD": {
+        "description": "password",
+        "required" : true
+      }
+    } 
+  }
